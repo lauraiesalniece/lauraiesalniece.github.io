@@ -1,0 +1,97 @@
+<!DOCTYPE html5>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Auza photography website">
+        <meta name="keywords" content="photos, photography">
+        <meta name="author" content="Laura Iesalniece">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Auza photography</title>
+        <link rel="stylesheet" href="./resources/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">   
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Sans:wght@100;400&display=swap" rel="stylesheet">
+        <link rel="icon" href="./resources/images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <!--Navigation-->
+            <div class="nav">
+              <a href="./index.html" class="logo logo-name">Auza photography</a>  
+              <a class="nav-a logo" href="./contact.php">Contacts <i class="fa fa-address-book" aria-hidden="true"></i></a>
+                <div class="dropdown">
+                    <a class="nav-a logo" href="./index.html">More <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
+                    <div class="dropdown-content">
+                        <a href="./photos.html" class="logo">More photos</a>
+                        <a href="./blog.html" class="logo">Blog</a>
+                        <a href="./table.html" class="logo">Courses</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main-section">
+        <!-- Table with courses -->
+        <table class="schedule">
+            <tr>
+                <th><i class="fa fa-calendar" aria-hidden="true"></i> Dates</th>
+                <th><i class="fa fa-camera" aria-hidden="true"></i> Courses</th>
+                <th><i class="fa fa-users" aria-hidden="true"></i> Groups</th>
+                <th><i class="fa fa-map-marker" aria-hidden="true"></i> Location</th>
+              </tr>
+              <tr>
+                <td>February 20, 2021</td>
+                <td>Camera Settings</td>
+                <td rowspan="2">Beginners</td>
+                <td rowspan="4">Riga</td>
+              </tr>
+              <tr>
+                <td>February 21, 2021</td>
+                <td>Speed and movement</td>
+              </tr>
+              <tr>
+                <td>February 27, 2021</td>
+                <td>Starting to retouch images</td>
+                <td rowspan="2">Intermediate</td>
+              </tr>
+              <tr>
+                <td>February 28, 2021</td>
+                <td>Video</td>
+              </tr>
+              <tr>
+                <td>March 6, 2021</td>
+                <td>First Steps in Smartphone Photography</td>
+                <td>Beginners</td>
+                <td rowspan="2">Madona</td>
+              </tr>
+              <tr>
+                <td>March 7, 2021</td>
+                <td>The photo review</td>
+                <td>All levels</td>
+              </tr>
+        </table> 
+        <!--Google Maps-->
+        <div class="map">
+          <div class="gmap_canvas">
+            <h4><i class="fa fa-map-marker" aria-hidden="true"></i> Riga</h4>
+            <iframe width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=m%C5%ABkusalas%20iela%2033&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <br><style>.mapouter{position:relative;text-align:right;height:400px;width:400px;}</style>
+            <a href="https://www.embedgooglemap.net">google map embed</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:400px;}</style>
+          </div>
+          <div class="gmap_canvas">
+            <h4><i class="fa fa-map-marker" aria-hidden="true"></i> Madona</h4>
+            <iframe width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=valdem%C4%81ra%20bulv%C4%81ris%209,%20Madona&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <br><style>.mapouter{position:relative;text-align:right;height:400px;width:400px;}</style><a href="https://www.embedgooglemap.net">google map embed</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:400px;}</style>
+          </div>
+        </div>
+        <!--Footer section-->
+        <div class="footer">
+          <hr>
+          <footer>
+            <p>&copy; Auza photography 2021</p>
+          </footer>
+        </div>
+      </main>
+    </body>
+</html>

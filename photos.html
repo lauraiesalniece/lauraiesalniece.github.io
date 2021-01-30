@@ -1,0 +1,94 @@
+<!DOCTYPE html5>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Auza photography website">
+        <meta name="keywords" content="photos, photography">
+        <meta name="author" content="Laura Iesalniece">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Auza photography</title>
+        <link rel="stylesheet" href="./resources/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">   
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Sans:wght@100;400&display=swap" rel="stylesheet">
+        <link rel="icon" href="./resources/images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <!--Navigation-->
+            <div class="nav">
+                <a href="./index.html" class="logo logo-name">Auza photography</a>
+                <a class="nav-a logo" href="./contact.php">Contacts <i class="fa fa-address-book" aria-hidden="true"></i></a>
+                <div class="dropdown">
+                    <a class="nav-a logo" href="./index.html">More <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
+                    <div class="dropdown-content">
+                        <a href="./photos.html" class="logo">More photos</a>
+                        <a href="./blog.html" class="logo">Blog</a>
+                        <a href="./courses.html" class="logo">Courses</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+            <!--Image section-->
+            <div class="img-section"> 
+                <div class="img-sec">
+                    <div class="numbertext">1 / 6</div>
+                    <img class="swan-img" src="./resources/images/swan.jpg" alt="Swan">  
+                </div>
+                <div class="img-sec">
+                    <div class="numbertext">2 / 6</div>
+                    <img class="cat-img" src="./resources/images/cat.jpg" alt="Cat">  
+                </div>
+                <div class="img-sec">
+                    <div class="numbertext">3 / 6</div>
+                    <img class="dragonfly-img" src="./resources/images/sea-3.jpg" alt="Sea"> 
+                </div>
+                <div class="img-sec">
+                    <div class="numbertext">4 / 6</div>
+                    <img class="aiviekste-img" src="./resources/images/morning.jpg" alt="Aiviekste">  
+                </div>
+                <div class="img-sec">
+                    <div class="numbertext">5 / 6</div>
+                    <img class="sunrise-img" src="./resources/images/sunrise.jpg" alt="Sunrise">  
+                </div>
+                <div class="img-sec">
+                    <div class="numbertext">6 / 6</div>
+                    <img class="abdambis-img" src="./resources/images/abdambis.jpg" alt="ABdambis"> 
+                </div>
+                 <!-- Next and previous buttons -->
+                 <div class="prev-next">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <!-- Image text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+                <!-- Thumbnail images -->
+                <div class="row">
+                    <div class="column">
+                    <img class="demo cursor" src="./resources/images/swan.jpg" style="width:100%" onclick="currentSlide(1)" alt="Swan">
+                    </div>
+                    <div class="column">
+                    <img class="demo cursor" src="./resources/images/cat.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cat">
+                    </div>
+                    <div class="column">
+                    <img class="demo cursor" src="./resources/images/sea-3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Sea">
+                    </div>
+                    <div class="column">
+                    <img class="demo cursor" src="./resources/images/morning.jpg" style="width:100%" onclick="currentSlide(4)" alt="River Aiviekste">
+                    </div>
+                    <div class="column">
+                    <img class="demo cursor" src="./resources/images/sunrise.jpg" style="width:100%" onclick="currentSlide(5)" alt="Sunrise">
+                    </div>
+                    <div class="column">
+                    <img class="demo cursor" src="./resources/images/abdambis.jpg" style="width:100%" onclick="currentSlide(6)" alt="AB Dambis">
+                    </div>
+                </div>
+            </div>
+        <!--Connection to JS-->    
+        <script src="./photos.js"></script>
+    </body>
+</html>

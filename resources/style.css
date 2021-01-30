@@ -9,7 +9,7 @@ html, body {
     text-align: center;
     color: seashell;
     background-color: black;
-    min-width: 480px;
+    min-width: 350px;
     max-width: 2000px;
     min-height: auto;
     width: 100%;
@@ -19,6 +19,12 @@ html, body {
 @media only screen and (max-width: 768px) {
     html, body {
         font-size: 15px;
+    } 
+}
+
+@media only screen and (max-width: 480px) {
+    html, body {
+        font-size: 12px;
     } 
 }
 
